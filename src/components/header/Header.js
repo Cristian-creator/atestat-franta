@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import header from '../../images/Belgium2.jpg';
 import './Header.css';
 
 export default class Header extends Component {
@@ -8,7 +7,7 @@ export default class Header extends Component {
             <div className="header">
                 {/* <img className="image" src={header} alt="" /> */}
                 <span>
-                    <p> Belgia </p>
+                    <p> New York </p>
                 </span>
             </div>
         )

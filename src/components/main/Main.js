@@ -6,9 +6,9 @@ export default class Main extends Component {
         
         return (
             <div className="main">
-                <h1> Ce este Belgia?  </h1>
+                <h1> Scurta descriere </h1>
                 <p>
-                     <b>Regatul Belgiei </b>, cunoscut colocvial ca <b> Belgia </b> , este o țară ce apartine Uniunii Europene.
+                     <b> New York City (NYC) </b>, deseori numit The City sau simple New York, este cel mai popular oras din United States.
                 </p>
             </div>
         )
