@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    position: relative;
+    background-image: url('../../images/Belgium2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: goDown;
+    animation-duration: 2s;
+    
+    .image {
+        width: 100%;
+    }
+    p {
+        position: absolute;
+        right: 50%;
+        top: 50%;
+        transform: translate(50%, -70%);
+        box-shadow: -2px -1px 64px 3px rgba(0,0,0,0.75);
+        color: rgba(255, 255, 255, 0.9);
+        // color: white;
+        font-size: 9rem;
+        // text-shadow: -1px -2px 30px rgba(154, 150, 150, 1);
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 30%;
+    }
+}
+
+@keyframes goDown {
+    0% {
+        transform: translateY(-70px);
+        opacity: 0.1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  position: relative;
+  background-image: url("../../images/Belgium2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation-name: goDown;
+          animation-name: goDown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.header .image {
+  width: 100%;
+}
+
+.header p {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  -webkit-transform: translate(50%, -70%);
+          transform: translate(50%, -70%);
+  -webkit-box-shadow: -2px -1px 64px 3px rgba(0, 0, 0, 0.75);
+          box-shadow: -2px -1px 64px 3px rgba(0, 0, 0, 0.75);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 9rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 30%;
+}
+
+@-webkit-keyframes goDown {
+  0% {
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+    opacity: 0.1;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes goDown {
+  0% {
+    -webkit-transform: translateY(-70px);
+            transform: translateY(-70px);
+    opacity: 0.1;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
