@@ -7,7 +7,7 @@ export default class Header extends Component {
             <div className="header">
                 {/* <img className="image" src={header} alt="" /> */}
                 <span>
-                    <p> New York </p>
+                    <p> Franța </p>
                 </span>
             </div>
         )

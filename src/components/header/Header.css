@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   position: relative;
-  background-image: url("https://wallup.net/wp-content/uploads/2016/01/193348-cityscape-New_York_City-Brooklyn_Bridge-night-artificial_lights-landscape-water-skyscraper-building-river-Never_Forget.jpg");
+  background-image: url("https://www.pxwall.com/wp-content/uploads/2018/06/Wallpaper%20Eiffel%20Tower,%20France,%20Paris,%204K,%205K,%20Architecture%208366192.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,14 +20,16 @@
   position: absolute;
   right: 50%;
   top: 50%;
-  -webkit-transform: translate(50%, -70%);
-          transform: translate(50%, -70%);
-  -webkit-box-shadow: -2px -1px 64px 3px rgba(0, 0, 0, 0.75);
-          box-shadow: -2px -1px 64px 3px rgba(0, 0, 0, 0.75);
-  color: rgba(255, 255, 255, 0.9);
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  -webkit-box-shadow: -2px -1px 64px 3px rgba(0, 0, 0, 0.9);
+          box-shadow: -2px -1px 64px 3px rgba(0, 0, 0, 0.9);
+  padding: 0px 80px;
+  border: 1px solid #b2ebf2;
+  color: #b2ebf2;
   font-size: 9rem;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 30%;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
 }
 
 @-webkit-keyframes goDown {

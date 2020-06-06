@@ -8,7 +8,7 @@ export default class Main extends Component {
             <div className="main">
                 <h1> Scurta descriere </h1>
                 <p>
-                     <b> New York City (NYC) </b>, deseori numit The City sau simple New York, este cel mai popular oras din United States.
+                    <b> Franța </b> , oficial <b> Republica Franceză </b> , este o republică constituțională unitară având un regim semi-prezidențial, mare parte din teritoriul său și din populație fiind situată în Europa de Vest, dar care cuprinde și mai multe regiuni și teritorii răspândite în toată lumea.
                 </p>
             </div>
         )
